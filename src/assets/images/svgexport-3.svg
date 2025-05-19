@@ -1,0 +1,133 @@
+<svg data-v-0dd9719b="" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="191" height="61"  preserveAspectRatio="xMidYMid meet"
+     color-interpolation-filters="sRGB" style="margin: auto;">
+    <g data-v-0dd9719b="" fill="#FD9248" class="icon-text-wrapper icon-svg-group iconsvg"
+    >
+        <g class="iconsvg-imagesvg"
+           mask="url(#5cd64bb8-1139-4816-a394-ebc4f76edd1e)" fill="#FD9248">
+            <g fill="#FD9248">
+                <rect fill="#FD9248" fill-opacity="0" stroke-width="2px" x="0" y="0" width="60" height="60"
+                      class="image-rect"></rect>
+                <svg filter="url(#colors4199332721)" x="0" y="0" width="60" height="60" filtersec="colorsf2904562944"
+                     class="image-svg-svg primary" style="overflow: visible;" fill="#FD9248">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73.4 73.39999" fill="#FD9248">
+                        <path d="M36.7 36.7c-6.8 6.8-17.8 6.8-24.5 0-6.8-6.8-6.8-17.8 0-24.5 1.5-1.5 3.2-2.6 5-3.5l3.7 3.7M8.2 30.8H3c-.7 1.9-1 3.9-1 6 0 9.6 7.8 17.4 17.4 17.4s17.4-7.8 17.4-17.4M12.4 52.6l-3.7 3.7c.8 1.8 2 3.5 3.5 5 6.8 6.8 17.8 6.8 24.5 0 6.8-6.8 6.8-17.8 0-24.5m-5.9 28.4v5.2c1.9.7 3.9 1 6 1 9.6 0 17.4-7.8 17.4-17.4s-7.8-17.4-17.4-17.4m15.8 24.5l3.7 3.7c1.8-.8 3.5-2 5-3.5 6.8-6.8 6.8-17.8 0-24.5-6.8-6.8-17.8-6.8-24.5 0m28.4 5.9h5.2c.7-1.9 1-3.9 1-6 0-9.6-7.8-17.4-17.4-17.4-9.6 0-17.4 7.8-17.4 17.4m24.5-15.9l3.7-3.7c-.8-1.8-2-3.5-3.5-5-6.8-6.8-17.8-6.8-24.5 0-6.8 6.8-6.8 17.8 0 24.5m5.9-28.4V3c-1.9-.7-3.9-1-6-1-9.6 0-17.4 7.8-17.4 17.4 0 9.6 7.8 17.4 17.4 17.4"
+                              fill="none" stroke="#333333" stroke-width="4px" stroke-miterlimit="10"></path>
+                    </svg>
+                </svg>
+                <defs>
+                    <filter id="colors4199332721">
+                        <feColorMatrix type="matrix"
+                                       values="0 0 0 0 0.98828125  0 0 0 0 0.5703125  0 0 0 0 0.28125  0 0 0 1 0"
+                                       class="icon-fecolormatrix"></feColorMatrix>
+                    </filter>
+                    <filter id="colorsf2904562944">
+                        <feColorMatrix type="matrix"
+                                       values="0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 1 0"
+                                       class="icon-fecolormatrix"></feColorMatrix>
+                    </filter>
+                    <filter id="colorsb9076127752">
+                        <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"
+                                       class="icon-fecolormatrix"></feColorMatrix>
+                    </filter>
+                    <linearGradient x1="0" y1="1" x2="0" y2="0" id="6zG0uMaZdAskV6OzJMCX_">
+                        <stop offset="0%" stop-color="#fd9248"></stop>
+                        <stop offset="50%" stop-color="#fa1768"></stop>
+                        <stop offset="100%" stop-color="#f001ff"></stop>
+                    </linearGradient>
+                    <linearGradient x1="0" y1="1" x2="0" y2="0" id="d68c51c0-efe7-4744-acc1-7c8ebd071afa">
+                        <stop offset="0%" stop-color="#fd9248"></stop>
+                        <stop offset="50%" stop-color="#fa1768"></stop>
+                        <stop offset="100%" stop-color="#f001ff"></stop>
+                    </linearGradient>
+                    <linearGradient x1="0" y1="1" x2="0" y2="0" id="d68c51c0-efe7-4744-acc1-7c8ebd071afa">
+                        <stop offset="0%" stop-color="#fd9248"></stop>
+                        <stop offset="50%" stop-color="#fa1768"></stop>
+                        <stop offset="100%" stop-color="#f001ff"></stop>
+                    </linearGradient>
+                    <linearGradient x1="0" y1="1" x2="0" y2="0" id="d68c51c0-efe7-4744-acc1-7c8ebd071afa">
+                        <stop offset="0%" stop-color="#fd9248"></stop>
+                        <stop offset="50%" stop-color="#fa1768"></stop>
+                        <stop offset="100%" stop-color="#f001ff"></stop>
+                    </linearGradient>
+                    <linearGradient x1="0" y1="1" x2="0" y2="0" id="d68c51c0-efe7-4744-acc1-7c8ebd071afa">
+                        <stop offset="0%" stop-color="#fd9248"></stop>
+                        <stop offset="50%" stop-color="#fa1768"></stop>
+                        <stop offset="100%" stop-color="#f001ff"></stop>
+                    </linearGradient>
+                </defs>
+            </g>
+            <rect v-gra="id" width="72" height="72" transform="translate(-6, -6)" style="pointer-events:none;"
+                  fill="url(&quot;#6zG0uMaZdAskV6OzJMCX_&quot;)"></rect>
+        </g>
+        <g transform="translate(67,0)" fill="#FD9248">
+            <g data-gra="path-name" fill-rule="" class="tp-name iconsvg-namesvg"
+               fill="url(&quot;#d68c51c0-efe7-4744-acc1-7c8ebd071afa&quot;)">
+                <g transform="scale(1)" fill="url(&quot;#d68c51c0-efe7-4744-acc1-7c8ebd071afa&quot;)">
+                    <g fill="url(&quot;#d68c51c0-efe7-4744-acc1-7c8ebd071afa&quot;)">
+                        <path d="M10.6 0L3.9 0 3.9-48.65 13.97-48.65 13.97-30.13Q15.86-31.98 18.25-33.1 20.64-34.22 23.86-34.22L23.86-34.22Q26.49-34.22 28.73-33.09 30.97-31.95 32.6-29.75 34.22-27.56 35.15-24.38 36.08-21.19 36.08-17.13L36.08-17.13Q36.08-13.33 35.02-10.11 33.96-6.89 32.06-4.52 30.16-2.15 27.51-0.81 24.86 0.52 21.64 0.52L21.64 0.52Q20.15 0.52 18.96 0.23 17.78-0.07 16.79-0.6 15.79-1.14 14.97-1.89 14.14-2.63 13.36-3.51L13.36-3.51 13-1.82Q12.77-0.78 12.17-0.39 11.57 0 10.6 0L10.6 0ZM20.35-26.65L20.35-26.65Q19.24-26.65 18.35-26.44 17.45-26.23 16.69-25.84 15.93-25.45 15.28-24.85 14.63-24.25 13.97-23.46L13.97-23.46 13.97-9.17Q15.11-7.9 16.45-7.39 17.78-6.89 19.24-6.89L19.24-6.89Q20.64-6.89 21.81-7.44 22.98-8 23.84-9.21 24.7-10.43 25.19-12.38 25.68-14.33 25.68-17.13L25.68-17.13Q25.68-19.79 25.29-21.61 24.89-23.43 24.2-24.55 23.5-25.68 22.52-26.16 21.55-26.65 20.35-26.65ZM41.93-48.65L52-48.65 52 0 41.93 0 41.93-48.65ZM75.14-34.22L75.14-34.22Q78.98-34.22 82.13-33.02 85.28-31.82 87.54-29.57 89.8-27.33 91.05-24.13 92.3-20.93 92.3-16.93L92.3-16.93Q92.3-12.9 91.05-9.67 89.8-6.44 87.54-4.18 85.28-1.92 82.13-0.7 78.98 0.52 75.14 0.52L75.14 0.52Q71.27 0.52 68.1-0.7 64.94-1.92 62.64-4.18 60.35-6.44 59.1-9.67 57.85-12.9 57.85-16.93L57.85-16.93Q57.85-20.93 59.1-24.13 60.35-27.33 62.64-29.57 64.94-31.82 68.1-33.02 71.27-34.22 75.14-34.22ZM75.14-6.96L75.14-6.96Q78.62-6.96 80.26-9.41 81.9-11.86 81.9-16.87L81.9-16.87Q81.9-21.87 80.26-24.31 78.62-26.75 75.14-26.75L75.14-26.75Q71.57-26.75 69.91-24.31 68.25-21.87 68.25-16.87L68.25-16.87Q68.25-11.86 69.91-9.41 71.57-6.96 75.14-6.96ZM109.72-34.29L109.72-34.29Q111.87-34.29 113.77-33.87 115.67-33.44 117.29-32.66L117.29-32.66 127.47-32.66 127.47-28.99Q127.47-28.14 126.99-27.66 126.52-27.17 125.39-26.91L125.39-26.91 122.92-26.36Q123.37-24.89 123.37-23.34L123.37-23.34Q123.37-20.8 122.31-18.79 121.26-16.77 119.42-15.36 117.59-13.94 115.08-13.18 112.58-12.42 109.72-12.42L109.72-12.42Q108.13-12.42 106.73-12.61L106.73-12.61Q105.63-11.96 105.63-11.12L105.63-11.12Q105.63-10.27 106.52-9.9 107.41-9.52 108.88-9.38 110.34-9.23 112.22-9.18 114.11-9.13 116.06-8.95 118.01-8.78 119.89-8.35 121.78-7.93 123.24-6.99 124.7-6.04 125.6-4.47 126.49-2.89 126.49-0.46L126.49-0.46Q126.49 1.82 125.39 4 124.28 6.17 122.14 7.87 119.99 9.55 116.87 10.58 113.75 11.6 109.72 11.6L109.72 11.6Q105.76 11.6 102.88 10.86 100 10.11 98.1 8.89 96.2 7.67 95.29 6.08 94.38 4.49 94.38 2.76L94.38 2.76Q94.38 0.52 95.75-1.02 97.11-2.57 99.48-3.45L99.48-3.45Q98.35-4.19 97.66-5.36 96.98-6.53 96.98-8.32L96.98-8.32Q96.98-9.07 97.24-9.9 97.5-10.72 98.05-11.51 98.61-12.29 99.45-13 100.3-13.71 101.47-14.27L101.47-14.27Q98.83-15.67 97.32-17.97 95.81-20.28 95.81-23.34L95.81-23.34Q95.81-25.87 96.88-27.9 97.96-29.93 99.82-31.35 101.69-32.76 104.23-33.52 106.76-34.29 109.72-34.29ZM117.2 1.24L117.2 1.24Q117.2 0.42 116.69-0.07 116.19-0.55 115.33-0.84 114.47-1.14 113.31-1.27 112.16-1.4 110.83-1.46 109.49-1.53 108.06-1.58 106.63-1.63 105.24-1.79L105.24-1.79Q104.29-1.14 103.69-0.34 103.09 0.46 103.09 1.46L103.09 1.46Q103.09 2.18 103.4 2.76 103.71 3.35 104.49 3.77 105.27 4.19 106.58 4.44 107.9 4.68 109.92 4.68L109.92 4.68Q112.09 4.68 113.49 4.42 114.89 4.16 115.72 3.71 116.55 3.25 116.87 2.62 117.2 1.98 117.2 1.24ZM109.72-18.62L109.72-18.62Q112.22-18.62 113.34-19.87 114.47-21.13 114.47-23.11L114.47-23.11Q114.47-25.16 113.34-26.32 112.22-27.5 109.72-27.5L109.72-27.5Q107.22-27.5 106.1-26.32 104.98-25.16 104.98-23.11L104.98-23.11Q104.98-22.13 105.25-21.32 105.53-20.51 106.11-19.91 106.7-19.3 107.59-18.96 108.49-18.62 109.72-18.62Z"
+                              transform="translate(-3.9000000953674316, 48.650001525878906)"
+                              fill="url(&quot;#d68c51c0-efe7-4744-acc1-7c8ebd071afa&quot;)"></path>
+                    </g> <!----> <!----> <!----> <!----> <!----> <!----> <!---->
+                </g>
+            </g> <!---->
+        </g>
+    </g>
+    <defs v-gra="od">
+        <linearGradient x1="0" y1="1" x2="0" y2="0" id="d68c51c0-efe7-4744-acc1-7c8ebd071afa">
+            <stop offset="0%" stop-color="#fd9248"></stop>
+            <stop offset="50%" stop-color="#fa1768"></stop>
+            <stop offset="100%" stop-color="#f001ff"></stop>
+        </linearGradient>
+        <filter id="42443b3f1de60f6b6fd3b6a9844b4764" filterUnits="objectBoundingBox">
+            <feColorMatrix type="matrix"
+                           values="0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 1 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <defs v-gra="id">
+        <filter id="3484825d-5743-4bec-8d37-09257018730a" filterUnits="userSpaceOnUse">
+            <feColorMatrix type="matrix"
+                           values="0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0" y1="1" x2="0" y2="0" id="6zG0uMaZdAskV6OzJMCX_">
+            <stop offset="0%" stop-color="#fd9248"></stop>
+            <stop offset="50%" stop-color="#fa1768"></stop>
+            <stop offset="100%" stop-color="#f001ff"></stop>
+        </linearGradient>
+        <filter id="42443b3f1de60f6b6fd3b6a9844b4764" filterUnits="objectBoundingBox">
+            <feColorMatrix type="matrix"
+                           values="0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 1 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <mask v-gra="im" id="5cd64bb8-1139-4816-a394-ebc4f76edd1e">
+        <g class="iconsvg-imagesvg" filter="url(#3484825d-5743-4bec-8d37-09257018730a)">
+            <g>
+                <rect fill="#FD9248" fill-opacity="0" stroke-width="2px" x="0" y="0" width="60" height="60"
+                      class="image-rect"></rect>
+                <svg x="0" y="0" width="60" height="60" filtersec="colorsf2904562944" class="image-svg-svg primary"
+                     style="overflow: visible;">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73.4 73.39999">
+                        <path d="M36.7 36.7c-6.8 6.8-17.8 6.8-24.5 0-6.8-6.8-6.8-17.8 0-24.5 1.5-1.5 3.2-2.6 5-3.5l3.7 3.7M8.2 30.8H3c-.7 1.9-1 3.9-1 6 0 9.6 7.8 17.4 17.4 17.4s17.4-7.8 17.4-17.4M12.4 52.6l-3.7 3.7c.8 1.8 2 3.5 3.5 5 6.8 6.8 17.8 6.8 24.5 0 6.8-6.8 6.8-17.8 0-24.5m-5.9 28.4v5.2c1.9.7 3.9 1 6 1 9.6 0 17.4-7.8 17.4-17.4s-7.8-17.4-17.4-17.4m15.8 24.5l3.7 3.7c1.8-.8 3.5-2 5-3.5 6.8-6.8 6.8-17.8 0-24.5-6.8-6.8-17.8-6.8-24.5 0m28.4 5.9h5.2c.7-1.9 1-3.9 1-6 0-9.6-7.8-17.4-17.4-17.4-9.6 0-17.4 7.8-17.4 17.4m24.5-15.9l3.7-3.7c-.8-1.8-2-3.5-3.5-5-6.8-6.8-17.8-6.8-24.5 0-6.8 6.8-6.8 17.8 0 24.5m5.9-28.4V3c-1.9-.7-3.9-1-6-1-9.6 0-17.4 7.8-17.4 17.4 0 9.6 7.8 17.4 17.4 17.4"
+                              fill="none" stroke="#333333" stroke-width="4px" stroke-miterlimit="10"></path>
+                    </svg>
+                </svg>
+                <defs>
+                    <filter id="colors4199332721">
+                        <feColorMatrix type="matrix"
+                                       values="0 0 0 0 0.98828125  0 0 0 0 0.5703125  0 0 0 0 0.28125  0 0 0 1 0"
+                                       class="icon-fecolormatrix"></feColorMatrix>
+                    </filter>
+                    <filter id="colorsf2904562944">
+                        <feColorMatrix type="matrix"
+                                       values="0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 0 0.99609375  0 0 0 1 0"
+                                       class="icon-fecolormatrix"></feColorMatrix>
+                    </filter>
+                    <filter id="colorsb9076127752">
+                        <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"
+                                       class="icon-fecolormatrix"></feColorMatrix>
+                    </filter>
+                </defs>
+            </g>
+        </g>
+    </mask>
+</svg>

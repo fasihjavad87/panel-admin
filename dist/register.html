@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت نام</title>
+    <link rel="shortcut icon" href="/assets/svgexport-2.svg">
+  <script type="module" crossorigin src="/assets/main2.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main.css">
+</head>
+<body class="register-login-body">
+<!-- Spinner (hidden after load) -->
+<div id="loading-spinner" class="parent-spinner">
+    <div class="spinner spinner-border"></div>
+</div>
+
+<!-- Form Wrapper -->
+<div class="parent-img-title-form">
+    <!-- Logo -->
+    <div class="parent-img">
+        <img src="/assets/svgexport-2.svg" alt="لوگو">
+    </div>
+
+    <!-- Title -->
+    <h5 class="register-login-title-form">ثبت نام</h5>
+
+    <!-- Form -->
+    <form class="register-login-form">
+        <!-- First Name -->
+        <div class="parent-input group">
+            <div class=" text-gray-400 group-focus-within:text-public parent-icon-input">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <input name="name" type="text" class="input-register-login" placeholder="نام و نام خانوادگی" required>
+        </div>
+
+        <!-- Email -->
+        <div class="parent-input group">
+            <div class="text-gray-400 group-focus-within:text-public parent-icon-input">
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+            <input name="email" type="email" class="input-register-login" placeholder="ایمیل" required>
+        </div>
+
+        <!-- Password -->
+        <div class="parent-input group relative">
+            <div class="text-gray-400 group-focus-within:text-public parent-icon-input">
+                <i class="fa-regular fa-lock-alt"></i>
+            </div>
+            <input name="password" id="password" type="password" class="input-register-login" placeholder="رمز عبور" required>
+            <!-- دکمه نمایش/مخفی کردن -->
+            <button type="button" class="icon-eye-password" onclick="togglePasswordVisibility(this)">
+                <i id="togglePasswordIcon" class="fa-regular fa-eye"></i>
+            </button>
+        </div>
+
+        <!-- Password -->
+        <div class="parent-input group relative">
+            <div class="text-gray-400 group-focus-within:text-public parent-icon-input">
+                <i class="fa-regular fa-lock-alt"></i>
+            </div>
+            <input name="password" id="password" type="password" class="input-register-login" placeholder="تکرار رمز عبور" required>
+            <!-- دکمه نمایش/مخفی کردن -->
+            <button type="button" class="icon-eye-password" onclick="togglePasswordVisibility(this)">
+                <i id="togglePasswordIcon" class="fa-regular fa-eye"></i>
+            </button>
+        </div>
+
+        <!-- Submit Button -->
+        <button name="submit" type="submit" class="submit-register-login">ثبت نام</button>
+
+        <hr class="border-register-login">
+
+        <!-- Login Link -->
+        <div class="parent-link-register-login">
+            <p class="question-account-register-login">حساب کاربری دارید؟</p>
+            <a href="./login.html" class="answer-register-login">ورود</a>
+        </div>
+    </form>
+</div>
+
+
+</body>
+</html>

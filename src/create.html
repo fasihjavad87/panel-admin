@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>پروژه من</title>
+    <link rel="shortcut icon" href="./assets/images/svgexport-2.svg">
+    <link rel="stylesheet" href="./assets/css/all.css"/>
+    <link rel="stylesheet" href="./assets/css/fontiran.css"/>
+    <link rel="stylesheet" href="./assets/css/input.css"/>
+
+</head>
+<body class="small-navigation">
+
+<div class="navigation " x-data="{ openMenu: null }">
+    <div class="navigation-icon-menu">
+        <ul>
+            <li title="کاربران" @click="openMenu = openMenu === 'users' ? null : 'users'"
+                :class="{ 'active': openMenu === 'users' }">
+                <a class="text-xl hover:text-gray-300 transition">
+                    <i class="icon fa-solid fa-user"></i>
+                    <!--                    <i class="fa-solid fa-user"></i>-->
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li title="ویرایش پروفایل" @click="openMenu = openMenu === 'setting' ? null : 'setting'"
+                :class="{ 'active': openMenu === 'setting' }">
+                <a class="text-xl hover:text-gray-300 transition go-to-page">
+                    <i class="icon fa-solid fa-gear"></i>
+                    <!--                    <i class="fa-solid fa-gear"></i>-->
+                </a>
+            </li>
+            <li title="خروج">
+                <a class="text-xl hover:text-gray-300 transition go-to-page">
+                    <i class="icon fa-solid fa-power-off"></i>
+                    <!--                    <i class="fa-solid fa-power-off"></i>-->
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="navigation-menu-body p-4">
+        <ul id="users" class="space-y-2" x-cloak x-show="openMenu === 'users'">
+            <li>
+                <button class="submenu-toggle">
+                    <span>کاربران</span>
+                    <i class="icon fa-solid fa-plus transition-transform duration-300"></i>
+                    <!--                    <i class="fa-solid fa-plus"></i>-->
+                </button>
+                <ul class=" pr-5 hidden submenu">
+                    <li><a href="./create.html" class="navigation-item-btn">ایجاد کاربر</a></li>
+                    <li><a href="./index.html" class="navigation-item-btn">لیست کاربران</a></li>
+                </ul>
+            </li>
+        </ul>
+        <ul id="setting" class="space-y-2" x-cloak x-show="openMenu === 'setting'">
+            <li>
+                <button class="submenu-toggle">
+                    <span>تنظیمات</span>
+                    <i class="icon fa-solid fa-plus transition-transform duration-300"></i>
+                    <!--                    <i class="fa-solid fa-plus"></i>-->
+                </button>
+                <ul class=" pr-5 hidden submenu">
+                    <li><a href="#" class="navigation-item-btn">تنظیم جدید</a></li>
+                    <li><a href="#" class="navigation-item-btn">تمام تنظیمات</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="header">
+    <!-- begin::header body -->
+    <div class="header-body">
+        <div class="header-body-left">
+            <h3 class="page-title">داشبورد</h3>
+            <!-- begin::breadcrumb -->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">داشبورد</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"> لیست</li>
+                </ol>
+            </nav>
+            <!-- end::breadcrumb -->
+        </div>
+        <div class="header-body-right" x-data="{ openDropdown: null }" @click.away="openDropdown = null">
+            <!-- begin::navbar main body -->
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link"
+                       @click.prevent="openDropdown === 1 ? openDropdown = null : openDropdown = 1">
+                        <i class="fa-light fa-plus-large"></i>
+                        <!--                       <i class="fa-light fa-plus-large"></i>-->
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-big" x-cloak x-show="openDropdown === 1"
+                         x-transition:enter="transition ease-out duration-200"
+                         x-transition:enter-start="opacity-0 translate-y-1"
+                         x-transition:enter-end="opacity-100 translate-y-0"
+                         x-transition:leave="transition ease-in duration-150"
+                         x-transition:leave-start="opacity-100 translate-y-0"
+                         x-transition:leave-end="opacity-0 translate-y-1"
+                    >
+                        <div class="p-4 bg-white">
+                            <h6>دسترسی سریع</h6>
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="#">
+                                        <div class="facilities-item bg-red-100 hover:bg-red-200 text-red-600">
+                                            <i class="fa-light fa-sitemap facilities-icon"></i>
+                                            دسته‌بندی ها
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="#">
+                                        <div class="facilities-item bg-blue-300 hover:bg-blue-400 text-blue-600">
+                                            <i class="fa-light fa-gamepad-modern facilities-icon"></i>
+                                            <!--                                            <i class="fa-light fa-gamepad-modern"></i>-->
+                                            محصولات
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="#">
+                                        <div class="facilities-item bg-amber-100 hover:bg-amber-200 text-amber-600">
+                                            <i class="fa-light fa-chart-simple facilities-icon"></i>
+                                            <!--                                            <i class="fa-light fa-chart-simple"></i>-->
+                                            گزارشات
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="#">
+                                        <div class="facilities-item bg-green-300 hover:bg-green-400 text-green-600">
+                                            <i class="fa-light fa-share facilities-icon"></i>
+                                            <!--                                            <i class="fa-light fa-share"></i>-->
+                                            سایر
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link nav-link-notify"
+                       @click.prevent="openDropdown === 2 ? openDropdown = null : openDropdown = 2">
+                        <i class="fa-light fa-message"></i>
+                        <!--                        <i class="fa-light fa-message"></i>-->
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-big bg-white" x-cloak
+                         x-show="openDropdown === 2"
+                         x-transition:enter="transition ease-out duration-200"
+                         x-transition:enter-start="opacity-0 translate-y-1"
+                         x-transition:enter-end="opacity-100 translate-y-0"
+                         x-transition:leave="transition ease-in duration-150"
+                         x-transition:leave-start="opacity-100 translate-y-0"
+                         x-transition:leave-end="opacity-0 translate-y-1">
+                        <div class="p-4 text-center bg-gray-500 top-notifications">
+                            <h6 class="title-notifications">پیام ها</h6>
+                            <small class="title-notifications2">1 پیام خوانده نشده</small>
+                        </div>
+                        <div>
+                            <ul class="body-notifications-ul">
+                                <li class="p-2.5">
+                                    <a href="#" class="notifications-item">
+                                        <div>
+                                            <div class="inline-block">
+                                                <span class="avatar-notifications">J</span>
+                                            </div>
+                                        </div>
+                                        <div class="pr-[18px]">
+                                            <h6 class="text-[14px]">
+                                                کاربر 1
+                                                <i title="علامت خوانده نشده" data-toggle="tooltip"
+                                                   class="hide-show-toggler-item fa fa-check font-size-13"></i>
+                                            </h6>
+                                            <span class="text-[10px]">08:50 ب.ظ</span>
+                                            <span class="text-[13px]">لورم ایپسوم متن ساختگی</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!-- end::navbar main body -->
+
+            <!--            <div class="d-flex align-items-center">-->
+            <!--                &lt;!&ndash; begin::navbar navigation toggler &ndash;&gt;-->
+            <!--                <div class="d-xl-none d-lg-none d-sm-block navigation-toggler">-->
+            <!--                    <a href="#">-->
+            <!--&lt;!&ndash;                        <i class="ti-menu"></i>&ndash;&gt;-->
+            <!--                        <i class="fa-regular fa-bars"></i>-->
+            <!--                    </a>-->
+            <!--                </div>-->
+
+            <!--                <div class="d-xl-none d-lg-none d-sm-block navbar-toggler">-->
+            <!--                    <a href="#">-->
+            <!--                        <i class="ti-arrow-down"></i>-->
+            <!--                    </a>-->
+            <!--                </div>-->
+            <!--            </div>-->
+        </div>
+
+    </div>
+
+</div>
+
+<main class="main-content">
+    <div class="card">
+        <div class="card-body">
+            <div class="max-w-4xl mx-auto">
+                <h6 class="title-page-create">ایجاد کاربر</h6>
+                <form method="POST">
+
+                    <div class="div-input">
+                        <label class="bi-label">نام و نام خانوادگی</label>
+                        <div class="parent-input">
+                            <input type="text" name="name" dir="rtl"
+                                   class="input-box">
+                        </div>
+                    </div>
+
+                    <div class="div-input">
+                        <label class="bi-label">ایمیل</label>
+                        <div class="parent-input">
+                            <input type="email" name="email" dir="rtl"
+                                   class="input-box">
+                        </div>
+                    </div>
+
+                    <div class="div-input">
+                        <label class="bi-label">موبایل</label>
+                        <div class="parent-input">
+                            <input type="text" name="mobile" dir="rtl"
+                                   class="input-box">
+                        </div>
+                    </div>
+
+                    <div class="div-input">
+                        <label class="bi-label">پسورد</label>
+                        <div class="parent-input">
+                            <input type="password" name="password" dir="rtl"
+                                   class="input-box">
+                        </div>
+                    </div>
+
+                    <!--                    <div class="flex flex-col md:flex-row items-center mb-6">-->
+                    <!--                        <label class="md:w-1/4 font-medium mb-2 md:mb-0" for="file">آپلود عکس</label>-->
+                    <!--                        <div class="md:w-3/4 w-full">-->
+                    <!--                            <input type="file" id="file" class="w-full text-gray-700">-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+
+                    <div class="div-upload-image">
+                        <label class="bi-label">آپلود عکس</label>
+                        <div class="section-upload">
+                            <div id="uploadBox"
+                                 class="box-parent-upload">
+                                <i class="fa-duotone fa-solid fa-cloud-arrow-up icon-upload"></i>
+                                <span id="uploadText" class="text-upload">برای آپلود کلیک کنید</span>
+                            </div>
+                            <input type="file" id="fileInput" class="hidden"/>
+                        </div>
+                    </div>
+
+                    <div class="parent-submit-button">
+                        <button type="submit"
+                                class="button-submit">
+                            ذخیره
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</main>
+
+
+<script type="module" src="./assets/js/Alpine.js" defer></script>
+<script type="module" src="./assets/js/main.js" defer></script>
+</body>
+</html>
